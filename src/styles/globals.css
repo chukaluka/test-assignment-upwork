@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  color: rgba(31, 33, 40, 1);
+}
+
+body {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 1);
+  width: 370px;
+  height: 326px;
+  position: relative;
+  top: 85px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(238, 238, 238, 1);
+  box-shadow: 0px 8px 15px 0px rgba(20, 20, 20, 0.12), 0px 0px 4px 0px rgba(20, 20, 20, 0.1);
+}
+
+.head-div {
+  padding: 8px 15px 8px 22px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-text {
+  font-family: Montserrat;
+  font-weight: 400;
+  size: 14px;
+  line-height: 18px;
+  color: rgba(31, 33, 40, 1);
+}
+
+.checker {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  border-radius: 1px;
+  border-color: rgba(205, 205, 205, 1);
+  width: 23px;
+  height: 23px;
+  opacity: 0.6px;
+}
+
+.checkmark {
+ 
+
+  width: 12px;
+  height: 7.54px;
+  position: absolute;
+  top: 13.5px;
+  left: 12px;
+  gap: 0px;
+  border-radius: 1.5px;
+  opacity: 0px;
+  
+}
+
+
+.horizontal-border-line{
+  width: 370px;
+  height: 20px;
+  padding: 10px 15px 10px 15px;
+  gap: 10px;
+
+}
+
+.horizontal-line {
+  width: 340px;
+  border-style: solid;
+  border-width: 0.7px;
+  border-color: rgba(205, 205, 205, 1);
+}
+
+.one {
+  padding: 8px 15px 8px 22px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.content {
+  font-weight: 400;
+  font-family: Montserrat;
+  line-height: 18.2px;
+  font-size: 14px;
+  color: rgba(31, 33, 40, 1);
+}
+
+.button-container {
+  padding: 10px 15px 10px 15px;
+  gap: 10px;
+
+}
+
+.button-div {
+  width: 340px;
+  height: 40px;
+  padding: 10px 20px 10px 20px;
+  gap: 10px;
+  border-radius: 4px;
+  background-color: rgb(255, 206, 34);
+  
+}
+
+.button-text {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.2px;
+  text-align: center;
+  color: rgba(31, 33, 40, 1);
+}
+
